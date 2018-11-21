@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Cipher Project</title>
+</head>
+<center>
+  <h1 class = "heading"><em>The Cipher Project</em></h1>
+  <body>
+    <table>
+      <tr id = "in">
+        <td>Input</td>
+        <td><input type = "text" id = "originalMessage"></td>
+      </tr>
+      <tr id = "keyButton">
+        <td>Key</td>
+        <td><input type = "text" id = "key" placeholder = "Any number!"></td>
+        <td><input type = "button" value = "Encrypt" onclick="cipher()"></td>
+        <td><input type = "button" value = "Decrypt" onclick="decipher()"></td>
+      <tr id ="out">
+        <td>Output</td>
+        <td><input type = "text" id = "newMessage" readonly = "readonly"></td>
+      </tr>
+    </table>
+  </body>
+  <script type="text/javascript" src="cipher.js"></script>
+</html>
